@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f3f3f3;
+    color: #111;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+
+.nav-left {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+/* ===== PAGE CONTAINER ===== */
+.container {
+    max-width: 420px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* ===== INPUTS ===== */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007185;
+    box-shadow: 0 0 0 2px rgba(0, 113, 133, 0.2);
+}
+
+/* ===== BUTTONS ===== */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    background: #ffd814;
+    border: 1px solid #fcd200;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f7ca00;
+}
+
+/* ===== SECONDARY BUTTON ===== */
+.btn-secondary {
+    background: #e7e9ec;
+    border: 1px solid #adb1b8;
+}
+
+.btn-secondary:hover {
+    background: #d5d9d9;
+}
+
+/* ===== TABLE (Bookings) ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #f0f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container button {
+    margin-top: 12px;
+}
